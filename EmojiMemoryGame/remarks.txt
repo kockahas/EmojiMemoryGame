@@ -1,0 +1,14 @@
+﻿Pinger.send_com_post parancsok
+
+parancs									Válaszok
+COM=login								OK,NemOK
+COM=register							OK,NemOK
+COM=RW                                  OK,NemOK
+COM=RQ                                  OK,NemOK
+
+
+    
+    http://gome.ddns.net/phpmyadmin/   root    no pw
+
+
+    
