@@ -37,7 +37,7 @@ namespace EmojiMemoryGame
             byte[] bytesarr = ascii.GetBytes(data);
             try
             {
-                WebRequest rq = WebRequest.Create("http://gome.ddns.net/MGComm/chksrv.php");
+                WebRequest rq = WebRequest.Create("http://{Server addres!!!}/chksrv.php");
 
                 rq.Method = "POST";
                 rq.ContentType = "application/x-www-form-urlencoded";
@@ -78,7 +78,7 @@ namespace EmojiMemoryGame
             byte[] bytearr = ascii.GetBytes(postData);
             try
             {
-                WebRequest rq = WebRequest.Create("http://gome.ddns.net/MGComm/com.php");
+                WebRequest rq = WebRequest.Create("http://{Server addres!!!}/com.php");
 
                 rq.Method = "POST";
                 rq.ContentType = "application/x-www-form-urlencoded";
